@@ -1,5 +1,11 @@
 <?php
-namespace Mwltr\Robo\Magento2\Task;
+namespace Mwltr\Robo\Magento2;
+
+use Mwltr\Robo\Magento2\Task\DeploySetModeTask;
+use Mwltr\Robo\Magento2\Task\SetupDiCompileTask;
+use Mwltr\Robo\Magento2\Task\SetupInstallTask;
+use Mwltr\Robo\Magento2\Task\SetupStaticContentDeployTask;
+use Mwltr\Robo\Magento2\Task\SetupUpgradeTask;
 
 trait loadMagentoTasks
 {

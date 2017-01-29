@@ -1,7 +1,15 @@
 <?php
+/**
+ * @copyright Copyright (c) 2017 Matthias Walter
+ *
+ * @see LICENSE
+ */
 
 namespace Mwltr\Robo\Magento2\Task;
 
+/**
+ * SetupInstallTask
+ */
 class SetupInstallTask extends AbstractTask
 {
     const DB_HOST = 'db-host';

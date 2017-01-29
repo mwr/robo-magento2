@@ -1,9 +1,14 @@
 <?php
+/**
+ * @copyright Copyright (c) 2017 Matthias Walter
+ *
+ * @see LICENSE
+ */
 
 namespace Mwltr\Robo\Magento2\Task;
 
 /**
- * SetProductionModeTask
+ * DeploySetModeTask
  */
 class DeploySetModeTask extends AbstractTask
 {

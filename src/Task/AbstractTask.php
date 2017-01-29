@@ -1,4 +1,9 @@
 <?php
+/**
+ * @copyright Copyright (c) 2017 Matthias Walter
+ *
+ * @see LICENSE
+ */
 
 namespace Mwltr\Robo\Magento2\Task;
 
@@ -6,7 +11,7 @@ use Robo\Common\ExecOneCommand;
 use Robo\Task\BaseTask;
 
 /**
- * BaseTask
+ * AbstractTask
  */
 abstract class AbstractTask extends BaseTask
 {

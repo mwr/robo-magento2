@@ -1,4 +1,9 @@
 <?php
+/**
+ * @copyright Copyright (c) 2017 Matthias Walter
+ *
+ * @see LICENSE
+ */
 namespace Mwltr\Robo\Magento2;
 
 use Mwltr\Robo\Magento2\Task\DeploySetModeTask;
@@ -7,6 +12,9 @@ use Mwltr\Robo\Magento2\Task\SetupInstallTask;
 use Mwltr\Robo\Magento2\Task\SetupStaticContentDeployTask;
 use Mwltr\Robo\Magento2\Task\SetupUpgradeTask;
 
+/**
+ * loadMagentoTasks
+ */
 trait loadMagentoTasks
 {
     /**

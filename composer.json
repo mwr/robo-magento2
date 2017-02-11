@@ -1,7 +1,7 @@
 {
     "name": "mwltr/robo-magento2",
     "description": "Robo Tasks for Magento2",
-    "type": "library",
+    "type": "robo-tasks",
     "license": "MIT",
     "authors": [
         {
@@ -9,7 +9,9 @@
             "email": "mat.walter@web.de"
         }
     ],
-    "require": {},
+    "require": {
+        "consolidation/robo": "~1"
+    },
     "autoload": {
         "psr-4": {
             "Mwltr\\Robo\\Magento2\\": "src"

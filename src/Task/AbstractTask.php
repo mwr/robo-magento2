@@ -27,7 +27,8 @@ abstract class AbstractTask extends BaseTask
 
     public function __construct($magentoBin = 'bin/magento')
     {
-        $this->command = "php $magentoBin";
+        $phpbin = PHP_BINARY;
+        $this->command = "$phpbin $magentoBin";
     }
 
     /**
@@ -49,7 +50,7 @@ abstract class AbstractTask extends BaseTask
     public function run()
     {
         $command = $this->getCommand();
-        
+
         $this->printTaskInfo("$this->taskInfo : {command}", ['command' => $command]);
 
         return $this->executeCommand($command);

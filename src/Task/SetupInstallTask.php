@@ -37,14 +37,14 @@ class SetupInstallTask extends AbstractTask
 
     protected $taskInfo = 'Setup Install';
 
-    public function options($options)
+    public function options($options, $separator = ' ')
     {
         foreach ($options as $key => $value) {
             if (empty($value)) {
                 continue;
             }
             $option = "--$key=$value";
-            $this->option($option);
+            $this->option($option, $separator);
         }
     }
 

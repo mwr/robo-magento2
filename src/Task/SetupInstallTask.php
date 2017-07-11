@@ -37,7 +37,7 @@ class SetupInstallTask extends AbstractTask
 
     protected $taskInfo = 'Setup Install';
 
-    public function options(array $options, $separator = ' ')
+    public function options(array $options, $separator = '')
     {
         foreach ($options as $key => $value) {
             if (empty($value)) {

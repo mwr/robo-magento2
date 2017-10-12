@@ -68,14 +68,12 @@ class SetupStaticContentDeployTask extends AbstractTask
 
     public function addLanguage($language)
     {
-        return $this->option("--language", $language);
+        return $this->arg($language);
     }
 
     public function addLanguages(array $languages)
     {
-        foreach ($languages as $language) {
-            $this->addLanguage($language);
-        }
+        $this->args($languages);
 
         return $this;
     }

@@ -2,6 +2,10 @@
 
 ## next
 
+## 2.1.0
+
+28995c5 [FIX] Magento 2.2 needs languages for static-content:deploy as arguments (backwards compatible change)
+
 ## 2.0.2
 
 9673e1a [TASK] fix issue with command not being executable
